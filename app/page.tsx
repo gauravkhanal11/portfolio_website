@@ -65,7 +65,7 @@ export default function Home() {
       </div>
       {/* New Section with Background Image */}
       <section
-        className="relative bg-cover bg-center bg-no-repeat min-h-[400px] flex items-center justify-center mx-0 flex-col py-0 mt-20 mb-0"
+        className="relative bg-cover bg-center bg-no-repeat min-h-[400px] flex items-center justify-center mx-0 flex-col py-0 mb-0 mt-24"
         style={{
           backgroundImage: "url('/product-hub-background.jpeg')",
         }}

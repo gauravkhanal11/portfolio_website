@@ -20,7 +20,7 @@ function ServiceCard({ title, description, icon }: ServiceProps) {
 
 export function Services() {
   return (
-    <section id="services" className="py-[60px]">
+    <section id="services" className="py-24">
       <div className="text-center mb-12">
         <p className="max-w-4xl mx-auto px-8 font-normal text-slate-400 text-xl">
           Cooking up digital magic to have your Product stand out? Here's how I can help your Product make some noise:

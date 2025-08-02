@@ -111,7 +111,7 @@ export function Blogs() {
   const handlePageClick = (pageNumber: number) => handlePageChange(pageNumber)
 
   return (
-    <section className="py-10" id="works">
+    <section className="py-16" id="works">
       <div className="mb-12 text-center">
         <h2 className="font-bold mb-4 text-5xl text-slate-800">Tech Blogs</h2>
         <p className="max-w-2xl text-slate-400 text-xl mx-auto text-center px-8">
