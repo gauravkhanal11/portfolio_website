@@ -16,7 +16,7 @@ export function Introduction() {
   }, [words.length])
 
   return (
-    <section className="bg-white py-5">
+    <section className="bg-white py-11">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Left Content */}
@@ -34,7 +34,7 @@ export function Introduction() {
 
             {/* "I CODE" text with animation */}
             <div className="mt-8">
-              <h3 className="font-bold text-9xl leading-tight tracking-normal whitespace-nowrap text-[rgba(147,130,148,1)]">
+              <h3 className="font-bold leading-tight tracking-normal whitespace-nowrap text-[rgba(147,130,148,1)] text-8xl">
                 I{" "}
                 <span
                   key={currentWordIndex}
@@ -55,7 +55,7 @@ export function Introduction() {
           {/* Right Image */}
           <div className="flex justify-center lg:justify-end lg:translate-x-[30%]">
             <div className="relative">
-              <div className="relative bg-gray-200 rounded-lg overflow-hidden translate-x-[-28%] w-[420px] h-[420px]">
+              <div className="relative bg-gray-200 rounded-lg overflow-hidden translate-x-[-32%] w-[400px] h-[400px]">
                 <Image src="/portrait.png" alt="Profile" fill className="object-cover" />
               </div>
             </div>
