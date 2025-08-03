@@ -79,7 +79,7 @@ export default function ProductHubPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {/* Card 1 */}
           <a
-            href="https://docs.google.com/spreadsheets/d/10hbzPgbozAFC9J80fFrXM4tdNXdR_OInZSqxpFcsrkk/edit?gid=1274515555#gid=1274515555" // Updated link
+            href="#" // Reverting to placeholder link
             target="_blank"
             rel="noopener noreferrer"
             className="block border border-gray-300 rounded-lg p-6 flex flex-col cursor-pointer
@@ -99,7 +99,7 @@ export default function ProductHubPage() {
           </a>
           {/* Card 2 */}
           <a
-            href="https://drive.google.com/drive/folders/1QPmVoWJS32Qx_sIEKSy31rBRk31Oga4a" // Updated link
+            href="#" // Reverting to placeholder link
             target="_blank"
             rel="noopener noreferrer"
             className="block border border-gray-300 rounded-lg p-6 flex flex-col cursor-pointer

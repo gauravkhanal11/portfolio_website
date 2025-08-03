@@ -65,14 +65,14 @@ export default function Home() {
       </div>
       {/* New Section with Background Image */}
       <section
-        className="relative bg-cover bg-center bg-no-repeat min-h-[400px] flex items-center justify-center mx-0 flex-col py-0 mb-0 mt-24"
+        className="relative bg-cover bg-center bg-no-repeat min-h-[400px] flex items-center justify-center mx-0 flex-col py-0 mt-20 mb-0"
         style={{
           backgroundImage: "url('/product-hub-background.jpeg')",
         }}
       >
         <div className="relative text-center px-4 text-white">
-          <h2 className="text-4xl font-bold mb-4">Product Hub</h2>
-          <p className="text-xl max-w-2xl mx-auto mb-8">
+          <h2 className="text-4xl font-bold mb-4 text-white">Product Hub</h2>
+          <p className="text-xl max-w-2xl mx-auto mb-8 text-slate-300">
             {"A curated space for practical tips, tools, and insights on building and managing software products"}
           </p>
           <Button
