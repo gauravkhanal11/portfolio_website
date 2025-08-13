@@ -18,7 +18,7 @@ export function Stats() {
       <StatItem value="7" label="Products Managed" />
       <StatItem value="30+" label="Product Features Launched" />
       <StatItem value="12+" label="Enterprise Deliveries Led" />
-      <StatItem value="20" label="Certifications" />      
+      <StatItem value="21" label="Certifications" />      
     </div>
   )
 }
