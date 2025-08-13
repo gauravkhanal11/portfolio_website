@@ -34,12 +34,12 @@ export function Services() {
         />
         <ServiceCard
           icon={<Palette className="text-[rgba(190,162,112,1)]" size={24} />}
-          title="UI/UX Design"
+          title="Product Designing"
           description="Designing intuitive and engaging user experiences that consistently satisfy and retain users."
         />
         <ServiceCard
           icon={<BarChart3 className="text-[rgba(190,162,112,1)]" size={24} />}
-          title="Analytics"
+          title="Product Analytics"
           description="I help identify crucial KPIs and MOS and will build you the right tracking infrastructure and dashboards to measure your product's impact"
         />
       </div>
