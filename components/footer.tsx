@@ -18,7 +18,7 @@ export function Footer() {
             <h4 className="font-semibold mb-4 text-white">Contact</h4>
             <ul className="space-y-2 text-gray-400">
               <li>gauravkhanal26@gmail.com</li>
-              <li>+91 9591129444 </li>
+              <li>+1 (343) 598-3630   </li>
               <li>Ottawa, ON K1N 5Y4, Canada</li>
             </ul>
           </div>

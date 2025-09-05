@@ -5,7 +5,7 @@ import { Services } from "@/components/services"
 import { Blogs } from "@/components/blogs"
 import { Introduction } from "@/components/introduction"
 import { Navbar } from "@/components/navbar"
-import { Footer } from "@/components/footer" // Import the new Footer component
+import { Footer } from "@/components/footer"
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <Navbar />
       {/* Hero Section */}
       <section
-        id="hero-section" // Added ID here
+        id="hero-section"
         className="relative bg-cover bg-center bg-no-repeat min-h-screen flex items-center justify-center"
         style={{
           backgroundImage: "url('/hero-background.jpg')",
@@ -44,7 +44,7 @@ export default function Home() {
                   <Image src="/linkedin-icon.png" alt="LinkedIn" width={55} height={55} className="rounded-lg" />
                 </a>
                 <a
-                  href="https://wa.me/919591129444"
+                  href="https://wa.me/13435983630"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="dock-icon transform transition-all duration-300 hover:scale-150 hover:-translate-y-2"
@@ -73,7 +73,7 @@ export default function Home() {
         <div className="relative text-center px-4 text-white">
           <h2 className="text-4xl font-bold mb-4 text-white">Product Hub</h2>
           <p className="text-xl max-w-2xl mx-auto mb-8 text-slate-300">
-            {"A curated space for practical tips, tools, and insights on building and managing software products"}
+            A curated space for practical tips, tools, and insights on building and managing software products
           </p>
           <Button
             variant="outline"
@@ -87,7 +87,7 @@ export default function Home() {
           </Button>
         </div>
       </section>
-      <Footer /> {/* Use the new Footer component */}
+      <Footer />
     </main>
   )
 }
