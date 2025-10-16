@@ -1,9 +1,10 @@
 "use client"
 
 import Image from "next/image"
+import Link from "next/link"
 import { CardWrapper } from "./ui/card-wrapper"
 import { Button } from "./ui/button"
-import { ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react'
+import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useState } from "react"
 
 interface BlogProps {
@@ -16,33 +17,28 @@ interface BlogProps {
 
 function BlogCard({ title, description, image, blogLink }: BlogProps) {
   return (
-    <CardWrapper className="overflow-hidden flex flex-col h-full">
-      <div className="relative h-48 mb-4 flex-shrink-0">
-        <Image
-          src={image || "/placeholder.svg"}
-          alt={title}
-          fill
-          className="object-cover rounded-lg transition-transform duration-300 group-hover:scale-110"
-          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-        />
-      </div>
-      <div className="flex-grow min-h-[7rem]">
-        <h3 className="text-lg font-semibold mb-2 text-[#bea270] line-clamp-2">{title}</h3>
-        <p className="text-sm mb-4 line-clamp-3 text-slate-300">{description}</p>
-      </div>
-      <div className="flex-shrink-0 mt-auto">
-        <Button
-          variant="outline"
-          size="sm"
-          asChild
-          className="text-[#bea270] border-[#bea270] hover:bg-[#bea270] hover:text-white active:bg-[#bea270]/90 bg-transparent group"
-        >
-          <a href={blogLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-            <ExternalLink size={16} className="text-[#bea270] group-hover:text-white transition-colors" /> Read Blog
-          </a>
-        </Button>
-      </div>
-    </CardWrapper>
+    <Link
+      href={blogLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block transition-transform duration-300 ease-in-out hover:scale-110"
+    >
+      <CardWrapper className="flex flex-col h-full cursor-pointer">
+        <div className="relative h-48 mb-4 flex-shrink-0 overflow-hidden rounded-lg">
+          <Image
+            src={image || "/placeholder.svg"}
+            alt={title}
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          />
+        </div>
+        <div className="flex-grow min-h-[7rem]">
+          <h3 className="text-lg font-semibold mb-2 text-[#bea270] line-clamp-2">{title}</h3>
+          <p className="text-sm mb-4 line-clamp-3 text-slate-300">{description}</p>
+        </div>
+      </CardWrapper>
+    </Link>
   )
 }
 
@@ -131,7 +127,7 @@ export function Blogs() {
         </Button>
 
         {/* Viewport for the slider */}
-        <div className="overflow-hidden w-full">
+        <div className="overflow-hidden w-full py-12 px-8">
           {/* Sliding track */}
           <div
             className="flex transition-transform duration-500 ease-in-out"
@@ -145,7 +141,7 @@ export function Blogs() {
               return (
                 <div
                   key={pageIndex}
-                  className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 flex-shrink-0 w-full"
+                  className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 flex-shrink-0 w-full px-4"
                 >
                   {pageBlogs.map((blog, index) => (
                     <BlogCard key={pageStartIndex + index} {...blog} />
