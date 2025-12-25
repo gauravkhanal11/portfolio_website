@@ -23,24 +23,24 @@ export function Services() {
     <section id="services" className="py-24">
       <div className="text-center mb-12">
         <p className="max-w-4xl mx-auto px-8 font-normal text-slate-400 text-xl">
-          Cooking up digital magic to have your Product stand out? Here's how I can help your Product make some noise:
+          I design and build AI systems at the intersection of data science, backend engineering, and machine learning
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <ServiceCard
           icon={<Code className="text-[rgba(190,162,112,1)]" size={24} />}
-          title="Product Consulting"
-          description="Whether your product is at 0-1 or 1-N, I help your team turn ideas into clear, buildable features that fit your business goals and code"
+          title="Data Science"
+          description="Turning raw, messy data into reliable, well-evaluated machine learning models"
         />
         <ServiceCard
           icon={<Palette className="text-[rgba(190,162,112,1)]" size={24} />}
-          title="Product Designing"
-          description="Designing intuitive and engaging user experiences that consistently satisfy and retain users."
+          title="Backend Engineering"
+          description="Building backend services and APIs in Python and Django to integrate the models to applications"
         />
         <ServiceCard
           icon={<BarChart3 className="text-[rgba(190,162,112,1)]" size={24} />}
-          title="Product Analytics"
-          description="I help identify crucial KPIs and MOS and will build you the right tracking infrastructure and dashboards to measure your product's impact"
+          title="Analytics"
+          description="Cleaning, analyzing, and visualizing data using Pandas, NumPy, SQL, and Matplotlib to surface meaningful patterns"
         />
       </div>
     </section>

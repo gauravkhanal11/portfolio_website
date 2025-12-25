@@ -1,13 +1,11 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google" // Reverting to Inter font
-import "./globals.css"
+import { Inter } from "next/font/google" 
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "gK", // Changed from "Gaurav Khanal | Portfolio"
-  description: "AI Product Manager with a passion for smart systems, NLP, and data-driven solutions.",
+  title: "gK",
   generator: "v0.dev",
 }
 
@@ -22,3 +20,6 @@ export default function RootLayout({
     </html>
   )
 }
+
+
+import './globals.css'
