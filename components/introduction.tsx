@@ -5,7 +5,7 @@ import { useState, useEffect } from "react"
 
 export function Introduction() {
   const [currentWordIndex, setCurrentWordIndex] = useState(0)
-  const words = ["DESIGN", "ANALYZE", "CODE", "BUILD"]
+  const words = ["CODE", "ANALYZE", "BUILD"]
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -22,10 +22,10 @@ export function Introduction() {
           {/* Left Content */}
           <div className="space-y-6">
             <div className="mb-8">
-              <div className="relative w-full h-40 bg-transparent rounded-lg overflow-hidden py-0">
+              <div className="relative w-full h-20 bg-transparent rounded-lg overflow-hidden py-0">
                 <Image
-                  src="/intro-header.png"
-                  alt="Hi This is Gaurav - Product Management / Innovation"
+                  src="/intro-thisisgaurav.png"
+                  alt="Hi This is Gaurav"
                   fill
                   className="object-contain object-left"
                 />
@@ -55,7 +55,7 @@ export function Introduction() {
           {/* Right Image */}
           <div className="flex justify-center lg:justify-end lg:translate-x-[30%]">
             <div className="relative">
-              <div className="relative bg-gray-200 rounded-lg overflow-hidden translate-x-[-28%] w-[420px] h-[420px]">
+              <div className="relative bg-gray-200 rounded-lg overflow-hidden translate-x-[-28%] w-[380px] h-[380px]">
                 <Image src="/portrait.png" alt="Profile" fill className="object-cover" />
               </div>
             </div>

@@ -111,8 +111,7 @@ export function Blogs() {
       <div className="mb-12 text-center">
         <h2 className="font-bold mb-4 text-5xl text-slate-800">Tech Blogs</h2>
         <p className="max-w-2xl text-xl mx-auto text-center px-8 text-slate-400">
-          I delve into the intricacies of software product design and development, while exploring the transformative
-          power of data and artificial intelligence
+          My blogs delve into the intricacies of software development, while exploring the transformative power of data and artificial intelligence
         </p>
       </div>
       <div className="relative flex items-center justify-center">

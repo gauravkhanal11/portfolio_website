@@ -7,8 +7,8 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4 text-white">Core Skills </h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Product Consulting </li>
-              <li>UI/UX Design</li>
+              <li>Data Science </li>
+              <li>Backend Engineering</li>
               <li>Analytics</li>
             </ul>
           </div>

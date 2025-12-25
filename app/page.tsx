@@ -22,7 +22,7 @@ export default function Home() {
         <div className="relative text-center px-4 text-white">
           <h1 className="text-white font-normal leading-3 text-4xl mb-3 mt-14">gauravkhanal.com</h1>
           <p className="font-normal leading-7 mb-10 mt-7 text-white text-xl">
-            Product Management, Product Design, User Experience, Data, Artificial Intelligence, Software Systems
+            Artificial Intelligence, Backend Engineering, Data Science, Data Analytics, Software Systems, AI Product Features
           </p>
           {/* Dock Section */}
           <div className="text-center mt-16">
@@ -67,13 +67,13 @@ export default function Home() {
       <section
         className="relative bg-cover bg-center bg-no-repeat min-h-[400px] flex items-center justify-center mx-0 flex-col py-0 mt-20 mb-0"
         style={{
-          backgroundImage: "url('/product-hub-background.jpeg')",
+          backgroundImage: "url('/projects-background.jpeg')",
         }}
       >
         <div className="relative text-center px-4 text-white">
-          <h2 className="text-4xl font-bold mb-4 text-white">Product Hub</h2>
+          <h2 className="text-4xl font-bold mb-4 text-white">Projects</h2>
           <p className="text-xl max-w-2xl mx-auto mb-8 text-slate-300">
-            A curated space for practical tips, tools, and insights on building and managing software products
+            My personal projects which covers technology areas such as AI, Backend Engineering, and Simulations
           </p>
           <Button
             variant="outline"
@@ -81,7 +81,7 @@ export default function Home() {
             asChild
             className="text-[#bea270] border-[#bea270] hover:bg-[#bea270] hover:text-white active:bg-[#bea270]/90 bg-transparent group"
           >
-            <a href="/product-hub" className="flex items-center gap-2">
+            <a href="/projects" className="flex items-center gap-2">
               Have a Look
             </a>
           </Button>

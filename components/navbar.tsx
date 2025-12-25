@@ -23,8 +23,8 @@ export function Navbar() {
     setIsOpen(false)
   }
 
-  const handleProductHubClick = () => {
-    router.push("/product-hub")
+  const handleProjectsClick = () => {
+    router.push("/projects")
     setIsOpen(false)
   }
 
@@ -48,8 +48,8 @@ export function Navbar() {
             >
               Blogs
             </button>
-            <button onClick={handleProductHubClick} className="text-white hover:text-primary transition-colors">
-              Product Hub
+            <button onClick={handleProjectsClick} className="text-white hover:text-primary transition-colors">
+              Projects
             </button>
             <Button onClick={() => handleNavLinkClick("hero-section")}>Contact</Button>
           </div>
@@ -79,10 +79,10 @@ export function Navbar() {
                 Blogs
               </button>
               <button
-                onClick={handleProductHubClick}
+                onClick={handleProjectsClick}
                 className="text-white hover:text-primary transition-colors text-left"
               >
-                Product Hub
+                Projects
               </button>
               <Button className="w-full" onClick={() => handleNavLinkClick("hero-section")}>
                 Contact
