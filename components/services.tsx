@@ -1,5 +1,5 @@
 import type React from "react"
-import { Code, Palette, BarChart3 } from "lucide-react"
+import { Database, Server, BarChart3 } from "lucide-react"
 import { CardWrapper } from "./ui/card-wrapper"
 
 interface ServiceProps {
@@ -28,12 +28,12 @@ export function Services() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <ServiceCard
-          icon={<Code className="text-[rgba(190,162,112,1)]" size={24} />}
+          icon={<Database className="text-[rgba(190,162,112,1)]" size={24} />}
           title="Data Science"
           description="Turning raw, messy data into reliable, well-evaluated machine learning models"
         />
         <ServiceCard
-          icon={<Palette className="text-[rgba(190,162,112,1)]" size={24} />}
+          icon={<Server className="text-[rgba(190,162,112,1)]" size={24} />}
           title="Backend Engineering"
           description="Building backend services and APIs in Python and Django to integrate the models to applications"
         />
