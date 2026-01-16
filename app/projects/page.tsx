@@ -166,8 +166,9 @@ export default function ProjectsPage() {
               </p>
             </a>
 
+            {/* Card 4: Healthcare */}
             <a
-              href="https://github.com/gauravkhanal11/data_analysis/blob/main/Data_Analysis_Code.ipynb"
+              href="https://github.com/gauravkhanal11/data_analysis/blob/main/Heathcare-Analysis.ipynb"
               target="_blank"
               rel="noopener noreferrer"
               className="block border border-gray-300 rounded-lg p-6 flex flex-col cursor-pointer
