@@ -176,7 +176,7 @@ export default function ProjectsPage() {
             >
               <div className="relative w-full aspect-[16/9] mb-6 rounded-md overflow-hidden border border-slate-100">
                 <Image
-                  src="/project_thumbnail_healthcare.png"
+                  src="/project_healthcare_EDA.png"
                   alt="Healthcare Data Analysis Thumbnail"
                   fill
                   className="object-cover object-top"
