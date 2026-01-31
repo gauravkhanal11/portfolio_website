@@ -73,7 +73,7 @@ export default function Home() {
         <div className="relative text-center px-4 text-white">
           <h2 className="text-4xl font-bold mb-4 text-white">Projects</h2>
           <p className="text-xl max-w-2xl mx-auto mb-8 text-slate-300">
-            My personal projects which covers technology areas such as AI, Backend Engineering, and Simulations
+            My personal projects which covers technology areas such as Machine Learning, Backend Engineering, and Simulations
           </p>
           <Button
             variant="outline"
