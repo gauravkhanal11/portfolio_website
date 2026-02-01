@@ -2,7 +2,7 @@ import Image from "next/image"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 
-const techStack = ["Python", "Django", "SQL", "Pandas", "NumPy", "SimPy", "Matplotlib", "AWS"]
+const techStack = ["Python", "Django", "SQL", "Pandas", "NumPy", "SimPy", "PyTorch", "AWS", "Scikit-Learn", "NLTK"]
 
 export default function ProjectsPage() {
   return (
