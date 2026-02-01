@@ -29,18 +29,18 @@ export function Services() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <ServiceCard
           icon={<Database className="text-[rgba(190,162,112,1)]" size={24} />}
-          title="Data Science"
-          description="Turning raw, messy data into reliable, well-evaluated machine learning models"
+          title="ML Engineering and Data Science"
+          description="Designing and deploying models with robust evaluation using modern ML techniques"
         />
         <ServiceCard
           icon={<Server className="text-[rgba(190,162,112,1)]" size={24} />}
           title="Backend Engineering"
-          description="Building backend services and APIs in Python and Django to integrate the models to applications"
+          description="Building backend services and APIs in Python and Django to integrate the Machine Learning models to applications"
         />
         <ServiceCard
           icon={<BarChart3 className="text-[rgba(190,162,112,1)]" size={24} />}
           title="Analytics"
-          description="Cleaning, analyzing, and visualizing data using Pandas, NumPy, SQL, and Matplotlib to surface meaningful patterns"
+          description="Cleaning, analyzing, and visualizing data with Python and SQL to surface meaningful patterns"
         />
       </div>
     </section>
