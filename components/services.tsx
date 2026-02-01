@@ -35,7 +35,7 @@ export function Services() {
         <ServiceCard
           icon={<Server className="text-[rgba(190,162,112,1)]" size={24} />}
           title="Backend Engineering"
-          description="Building backend services and APIs in Python and Django to integrate the Machine Learning models to applications"
+          description="Building backend services and APIs in Python and Django to integrate the ML models to applications"
         />
         <ServiceCard
           icon={<BarChart3 className="text-[rgba(190,162,112,1)]" size={24} />}
